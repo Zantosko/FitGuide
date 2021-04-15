@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>FitGuide</title>
+</head>
+<body>
+  <nav>
+    <div class="nav-wrapper">
+      <ul id="nav-mobile" class="right">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="mission.html">About</a></li>
+        <li><a href="calories.html">Calorie Needs</a></li>
+        <li><a href="recipe.html">Recipes</a></li>
+        <li><a href="planner.html">Plan Your Workout</a></li>
+      </ul>
+    </div>
+  </nav>
+  <br><br><br><br>
+
+  <div class="container">
+    <h2 class="teal-text page-title">Find foods that fit your diet!</h2>
+      <blockquote>If you're looking for full recipes use the search field on the left. But if you want data on specific foods, then used the search field on the right.</blockquote>
+    <div class="row">
+      <br>
+      <div class="col s4">
+        <h6 class="col s12">Search Recipes</h6>
+        <br>
+        <input type="text" id="recipe" class="col s12">
+      </div>
+      <div class="col s4 offset-s4 adjust-2">
+        <h6 class="col s12">Search Specific Food</h6>
+        <br>
+        <input type="text" id="food" class="col s12">
+      </div>
+    </div>
+    <div class="row">
+      <a class="waves-effect waves-light btn col s4" id="recipeBtn">Get Recipes</a>
+      <a class="waves-effect waves-light btn col s4 offset-s4 adjust" id="foodBtn">Get Food Items</a>
+    </div>
+    <br><br>
+    <div class="holder"></div>
+  </div>
+
+  <script src="recipe.js"></script>
+</body>
+</html>

@@ -1,0 +1,213 @@
+/* Global CSS */
+nav {
+	background: rgba(0, 0, 0, 0.8);
+	position: fixed;
+	z-index: 10;
+}
+
+p {
+	line-height: 1.6;
+}
+
+h6 {
+	line-height: 1.8;
+}
+
+blockquote {
+	border-left: 5px solid #009688;
+}
+
+/* Utilities */
+.mb-20p {
+	margin-bottom: 20px;
+}
+
+.mb-50p {
+	margin-bottom: 50px;
+}
+
+/* Home page */
+.home {
+	background-image: url("./assets/pictures/dumbbell-1966702_1920.jpg");
+}
+
+.home-nav {
+	margin-top: -27px;
+}
+
+.box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 80vh;
+	margin: 2rem;
+}
+
+.home-title {
+	font-size: 6rem;
+}
+
+#home-btn {
+	width: 20vw;
+}
+
+/* About Page */
+.mission {
+	background: url("/assets/pictures/fitness-3167418_1280.jpg") center
+		center/cover no-repeat;
+	height: 100vh;
+}
+
+.mission-container {
+	margin-top: 10rem;
+}
+
+.about-title {
+	font-size: 6rem;
+	margin-bottom: 5rem;
+}
+
+.mission-text {
+	font-size: 16px;
+}
+
+/* Calorie Needs Page */
+.radio {
+	margin: 1rem;
+}
+
+.box-2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 2rem;
+}
+
+.content {
+	width: 60%;
+	height: 50%;
+}
+
+.btn {
+	margin-top: 1rem;
+}
+
+.modal-effect {
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-info {
+	background-color: #fff;
+	margin: 10% auto 0 auto;
+	padding: 30px;
+	width: 70%;
+	position: relative;
+	box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+	animation-name: modalopen;
+	animation-direction: 1s;
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.closeBtn {
+	color: #aaa;
+	text-align: start;
+	font-size: 30px;
+	margin-bottom: 0.5rem;
+}
+
+.closeBtn:hover,
+.closeBtnBtn:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.closeBtn + div {
+	margin-top: 2rem;
+}
+
+@keyframes modalopen {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+/* Recipes Page */
+
+.page-title {
+	margin-bottom: 2rem;
+}
+
+.section {
+	height: 750px;
+}
+
+.food-title {
+	margin-bottom: 2rem;
+}
+
+.card {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+	/* Home Page */
+	#home-btn {
+		width: 30vw;
+	}
+
+	/* About Page */
+	.about-title {
+		font-size: 4rem;
+	}
+
+	.mission-container {
+		margin-top: 3rem;
+	}
+
+	/* Calories Page */
+	.modal-info {
+		height: 800px;
+		width: 80vw;
+		padding: 1rem;
+		margin-top: 7.5rem;
+	}
+
+	.closeBtn {
+		margin: 0;
+		padding: 0;
+	}
+}
+
+@media (max-width: 800px) {
+	/* Recipes Page */
+	.section {
+		height: 1000px;
+	}
+}
+
+@media (min-width: 1500px) {
+	/* Home Page */
+	.home-title {
+		font-size: 8rem;
+	}
+
+	/* About Page */
+	.mission-container {
+		margin-top: 5rem;
+	}
+}
