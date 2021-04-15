@@ -30,3 +30,11 @@
 ## What was learned
 
 - Asynchronous Programming
+  - Learned how to properly implement Async/Await in a function.
+  - Understand how Async/Await eliminates the need to deeply nested callbacks.
+- Using the Fetch API
+  - Learned how to interpolate user inputs into an API call to get back specific data.
+- Using a CSS framework as well as plain CSS in unison
+  - This project has shown me that CSS frameworks have their limitations and can also restrict creative freedom. But this experience has shown me new ways to work around these limitations to get the desired result.
+- Gained a better understanding of Materialize CSS
+  - Learned the specific naming conventions for their components as well as how to layout page properly using Materialize.
