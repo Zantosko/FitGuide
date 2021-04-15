@@ -12,6 +12,31 @@
 
 ## Screenshots
 
+<p class="center">
+  <img src="/assets/pictures/readme-photos/home-page.png">
+</p>
+<p class="center">
+  <img src="/assets/pictures/readme-photos/calculator-page.png">
+</p>
+<p class="center">
+  <img src="/assets/pictures/readme-photos/modal.png">
+</p>
+<p class="center">
+  <img src="">
+</p>
+<p class="center">
+  <img src="/assets/pictures/readme-photos/recipe-page1.png">
+</p>
+<p class="center">
+  <img src="/assets/pictures/readme-photos/recipe-page2.png">
+</p>
+<p class="center">
+  <img src="/assets/pictures/readme-photos/resources-page1.png">
+</p>
+<p class="center">
+  <img src="/assets/pictures/readme-photos/resources-page3.png">
+</p>
+
 ## Key Features
 
 - **Calorie Calculator** - This form takes the user's gender, height weight, age, and activity level. Once the user clicks the submit button, the inputs will then be inserted into a BMI formula and invoke specific set of conditionals based on the user's choices for gender and activity level. The conditonal set invoked will then calculate the Daily Calorie intake for the user. This value is then passed to a function that generates a modal. The calorie value is then passed into a few more formulas to calculate: Maintenance Calories, Weight Gain Calories, Weight loss Calories, and the Macronutrient Intake (carbs, protein, and fat) of each calorie value. The modal will then be displayed on screen with the calculated values passed in as well as some general tips for the user.
