@@ -55,7 +55,7 @@ blockquote {
 
 /* About Page */
 .mission {
-	background: url("/assets/pictures/health.jpg") center center/cover no-repeat;
+	background: url("./assets/pictures/health.JPG") center center/cover no-repeat;
 	height: 100vh;
 }
 
