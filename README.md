@@ -12,25 +12,25 @@
 
 ## Screenshots
 
-<p class="center">
+<p align="center">
   <img src="/assets/pictures/readme-photos/home-page.png" height="300" weight="300">
 </p>
-<p class="center">
+<p align="center">
   <img src="/assets/pictures/readme-photos/calculator-page.png" height="300" weight="300">
 </p>
-<p class="center">
+<p align="center">
   <img src="/assets/pictures/readme-photos/modal.png" height="300" weight="300">
 </p>
-<p class="center">
+<p align="center">
   <img src="/assets/pictures/readme-photos/recipe-page1.png" height="300" weight="300">
 </p>
-<p class="center">
+<p align="center">
   <img src="/assets/pictures/readme-photos/recipe-page2.png" height="300" weight="300">
 </p>
-<p class="center">
+<p align="center">
   <img src="/assets/pictures/readme-photos/resources-page1.png" height="300" weight="300">
 </p>
-<p class="center">
+<p align="center">
   <img src="/assets/pictures/readme-photos/resources-page3.png" height="300" weight="300">
 </p>
 
