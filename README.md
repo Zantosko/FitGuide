@@ -22,9 +22,6 @@
   <img src="/assets/pictures/readme-photos/modal.png">
 </p>
 <p class="center">
-  <img src="">
-</p>
-<p class="center">
   <img src="/assets/pictures/readme-photos/recipe-page1.png">
 </p>
 <p class="center">
