@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link rel="stylesheet" href="style.css">
@@ -12,7 +13,10 @@
 <body>
   <nav>
     <div class="nav-wrapper">
-      <ul id="nav-mobile" class="right">
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger button-collapse">
+        <i class="material-icons ">menu</i>
+      </a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="index.html">Home</a></li>
         <li><a href="mission.html">About</a></li>
         <li><a href="calories.html">Calorie Needs</a></li>
@@ -21,6 +25,14 @@
       </ul>
     </div>
   </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="mission.html">About</a></li>
+        <li><a href="calories.html">Calorie Needs</a></li>
+        <li><a href="recipe.html">Recipes</a></li>
+        <li><a href="planner.html">Plan Your Workout</a></li>
+  </ul>
   <br><br><br><br>
   <div class="container">
     <div class="header mb-50p">
@@ -121,6 +133,11 @@
     </ul>
   </div>
 
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="jQuery.js"></script>
 
 </body>
 </html>
