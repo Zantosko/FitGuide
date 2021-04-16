@@ -26,6 +26,10 @@ blockquote {
 	margin-bottom: 50px;
 }
 
+.mt-10p {
+	margin-top: 10px;
+}
+
 /* Home page */
 .home {
 	background-image: url("./assets/pictures/dumbbell-1966702_1920.jpg");
