@@ -13,19 +13,19 @@
 ## Screenshots
 
 <p align="center">
-  <img src="/assets/pictures/readme-photos/home-page.png" height="300" weight="300">
+  <img src="/assets/pictures/readme-photos/home-page.png" height="300" width="300">
 </p>
 <p align="center">
-  <img src="/assets/pictures/readme-photos/calculator-page.png" height="300" weight="300">
+  <img src="/assets/pictures/readme-photos/calculator-page.png" height="300" width="300">
 </p>
 <p align="center">
-  <img src="/assets/pictures/readme-photos/modal.png" height="300" weight="300">
+  <img src="/assets/pictures/readme-photos/modal.png" height="300" width="300">
 </p>
 <p align="center">
-  <img src="/assets/pictures/readme-photos/recipe-page2.png" height="300" weight="300">
+  <img src="/assets/pictures/readme-photos/recipe-page2.png" height="300" width="300">
 </p>
 <p align="center">
-  <img src="/assets/pictures/readme-photos/resources-page3.png" height="300" weight="300">
+  <img src="/assets/pictures/readme-photos/resources-page3.png" height="300" width="300">
 </p>
 
 ## Key Features
